@@ -25,8 +25,12 @@ Pizzly takes care of the OAuth dance for you and makes sure your access tokens a
     <a href="https://nango.dev/slack">Community Slack</a>
 </p>
 
-## ⭐ Get an access token with two lines of code
-Pizzly implements the full OAuth 2 and OAuth 1.0a dance for you and comes pre-configured for 50+ APIs.
+## ⭐ Pizzly at a glance
+Pizzly is:
+- a full OAuth 2 and OAuth 1.0a dance implementation
+- with pre-built configurations for 50+ APIs
+- language agnostic, it runs in a Docker container and works with backends written in any language
+- easy to try in 5 minutes and can be deployed in 10
 
 Start a **new OAuth flow with 2 lines of code in your frontend**:
 ```ts
@@ -36,7 +40,7 @@ var pizzly = new Pizzly();
 let result = await pizzly.connect('slack', '<user-id>');
 ```
 
-Then **get and use the current access token in your backend**:
+Then **get and use the current access token in your backend** (with our SDK or a simple REST API):
 ```ts
 var slackAccessToken = await Nango.getCurrentAccessToken('slack', '<user-id>'); // Always fresh & ready to use
 ```
