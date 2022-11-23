@@ -60,7 +60,7 @@ More than 50 APIs are preconfigured to work out-of-the-box. Including:
 If your favorite API is missing we [open a GitHub issue]() or [contribute it right away](): The API configurations are just simple [JSON files in a folder]().
 
 ## 🛡️ Small, self-contained & ready for production
-We built Pizzly because we wanted a simple, fast way to get (fresh) access tokens for any API that requires OAuth.
+We built Pizzly because we wanted a simple and fast way to get (fresh) access tokens for any API that requires OAuth.
 
 On purpose Pizzly is small, focused on its one task and easy to deploy in production:
 - It runs as a single docker container in your stack (or use our free [cloud version]())
